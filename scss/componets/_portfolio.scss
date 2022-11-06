@@ -1,0 +1,8 @@
+.portfolio {
+    @extend %section;
+}
+
+.portfoilio__title {
+    @extend %title;
+    @extend %visibility-hidden;
+}

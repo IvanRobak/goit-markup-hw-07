@@ -1,0 +1,4 @@
+@mixin flexGap($type: 30px) {
+  display: flex;
+  gap: $type;
+}

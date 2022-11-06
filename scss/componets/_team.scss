@@ -1,0 +1,9 @@
+.team {
+  @extend %section;
+  background-color: $grey-bg-color;
+  text-align: center;
+}
+
+.team__title {
+  @extend %title;
+}

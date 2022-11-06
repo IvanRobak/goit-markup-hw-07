@@ -1,0 +1,41 @@
+.features {
+  @extend %section;
+}
+
+.features__title {
+  @extend %title;
+  @extend %visibility-hidden;
+}
+
+.features-list {
+  @extend %list;
+  @include flexGap();
+}
+
+.features-list__item {
+  width: 270px;
+}
+
+.features-list__thumb {
+  height: 120px;
+  width: 100%;
+  background-color: $grey-bg-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  @extend %centeredFlex;
+
+  padding: 25px 100px;
+}
+
+.features-list__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: $dark-color;
+}
+
+.features-list__text {
+  line-height: 1.71;
+}

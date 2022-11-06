@@ -1,0 +1,21 @@
+.footer {
+  background-color: $dark-bg-color;
+  padding: 60px 0;
+}
+
+.footer__container {
+  @include flexGap(93px);
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+
+
+.footer__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: $white-color;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
